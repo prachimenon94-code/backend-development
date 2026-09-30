@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Notes App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1> Notes App</h1>
+            <p>Create, edit, search and manage your notes.</p>
+        </header>
+
+        <!-- Add / Edit Note Form -->
+        <section class="note-form">
+
+            <input
+                type="text"
+                id="noteTitle"
+                placeholder="Note title"
+            >
+
+            <textarea
+                id="noteText"
+                placeholder="Write your note..."
+                rows="5"
+            ></textarea>
+
+            <div class="form-buttons">
+                <button id="saveBtn">Add Note</button>
+                <button id="cancelBtn" class="secondary">
+                    Cancel
+                </button>
+            </div>
+
+        </section>
+
+        <!-- Search -->
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search notes..."
+            >
+
+        </section>
+
+        <!-- Notes -->
+        <section>
+
+            <h2>Your Notes</h2>
+
+            <div id="notesContainer">
+                <!-- Notes will be displayed here -->
+            </div>
+
+            <p id="emptyMessage">
+                No notes yet. Create your first note!
+            </p>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
