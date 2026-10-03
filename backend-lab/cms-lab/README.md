@@ -68,3 +68,17 @@ http://localhost:3000
 - MongoDB
 - Mongoose
 - CRUD operations
+
+## Screenshots
+
+### CMS Project
+
+The CMS application running in the browser:
+
+![CMS Project](screenshots/cms-screenshot.png)
+
+### MongoDB Database
+
+The MongoDB collection containing the CMS posts:
+
+![MongoDB Data](screenshots/mongodb-data.png)
